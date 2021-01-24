@@ -20,14 +20,14 @@ Basically, It used a Actions / Reducers / Screens / Components design pattern. F
 ### `Edit Page with MongoDB`
 On top of Task Requirements, I added Edit Page for Edit current Wind data.\
 By clicking Edit Icon on top of Wine Info Page, you can open editing page for current wine data.\
-All current wine data is already fetched in input box so you can only change the data you need. However, due to time line for task, it only uploads first component for the wine. Rest is remained to be fixed later on.\
-`CAUTION : YOU MUST INSTALL MONGODB AND SEED DATA TO MONGODB FIRST! (See below for more info)`\
+All current wine data is already fetched in the input box so you can only change the data you need. However, due to the timeline for task, it only uploads the first component for the wine. Rest is remained to be fixed later on.\
+`CAUTION : YOU MUST INSTALL MongoDB AND SEED DATA TO MONGODB FIRST! (See below for more info)`\
 
 ### `Auto-Complete Search Box`
-For task requirement, I completed auto-complete search. It starts when you try to input any word in input box and close once you click outside. It design to search both lotCode and Description together. Delete Search Words button will be generated once it has more than 1 search word in input box.
+For task requirement, I completed the auto-complete search. It starts when you try to input any word in the input box and close once you click outside. It design to search both lot code and Description together. Delete Search Words button will be generated once it has more than 1 search word in the input box.
 
 ### `Show More Button`
-For task requirement, I implemented Show more Button for long messages. If wine has More than 3 components to show, it creates show more button and it'll show 2 more contents evenry time you click.
+For task requirement, I implemented Show more Button for long messages. If wine has More than 3 components to show, it creates show more button and it'll show 2 more contents every time you click.
  
 # Getting Started with Wine Search App (Frontend)
 
