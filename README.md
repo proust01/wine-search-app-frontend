@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# wine-search-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app is React / Node.js wine search application.
 
-## Available Scripts
 
-In the project directory, you can run:
+`Clon or Download Backend Server : `\
+[wine-search-app-backend](https://github.com/proust01/wine-search-app)
+
+-- Stack Used : 
+
+      Frontend : React, Redux
+      Backend : Node.js, Express, MongoDB, MVC design pattern
+      
+## FrontEnd App
+
+`Redux State Management`
+For first task, it started with using React.js and Redux library for State Management. <br>
+Basically, It used a Actions / Reducers / Screens / Components design pattern. For Redux, it has a store.js for storing all states.<br>
+
+`Edit Page with MongoDB`
+On top of Task Requirements, I added Edit Page for Edit current Wind data.\
+By clicking Edit Icon on top of Wine Info Page, you can open editing page for current wine data.\
+All current wine data is already fetched in input box so you can only change the data you need. However, due to time line for task, it only uploads first component for the wine. Rest is remained to be fixed later on.\
+`CAUTION : YOU MUST INSTALL MONGODB AND SEED DATA TO MONGODB FIRST! (See below for more info)`\
+
+`Auto-Complete Search Box`
+For task requirement, I completed auto-complete search. It starts when you try to input any word in input box and close once you click outside. It design to search both lotCode and Description together.
+
+# Getting Started with Wine Search App (Backend)
+
+### `Clon or Download Repository`
+
+### `npm install`
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000/](http://localhost:5000/products) to see the browser.\
+It'll open Auto-Complete Serch Box.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### `test with Search input & Pages`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `CAUTION FOR EDTING PAGE : YOU MUST INSTALL MONGODB AND SEED DATA TO MONGODB FIRST!`
 
-### `npm run build`
+[MongoDB Community Edition Download]()\
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Comment out Codes & Back from VS Code for MongoDB`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Server is currently fetching a data from data.js so in order to use MongoDB, we need to comment out some code.\
+`routers/productRouter.js` : Line 12 (comment out), Line 13 (back for MongoDB Command)\
+`routers/breakdownRouter.js` : Line 11, 40, 68, 96 (comment out), Line 13, 41, 69, 97 (back for MongoDB Command)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Seed Data to MongoDB`
 
-### `npm run eject`
+Before Editing page, You must be installed with MongoDB. [MongoDB Community Edition Download]\
+Once installed, you can seed the data with this api.\
+[http://localhost:5000/products/seed](http://localhost:5000/products/seed)\
+This will store data to MongoDB.\
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `Run nodemon server.js`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Now it's ready for MongoDB and Editing Page. Try API and Check if it stores data properly.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can test MongoDB with BackEnd Web application.\
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`Clon or Download Backend App : `\
+[https://github.com/proust01/wine-search-app](https://github.com/proust01/wine-search-app)
