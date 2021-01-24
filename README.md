@@ -3,7 +3,7 @@
 This app is React / Node.js wine search application.
 
 
-`Clon or Download Backend Server : `\
+`Clone or Download Backend Server : `\
 [wine-search-app-backend](https://github.com/proust01/wine-search-app)
 
 -- Stack Used : 
@@ -28,7 +28,7 @@ For task requirement, I completed auto-complete search. It starts when you try t
 
 # Getting Started with Wine Search App (Frontend)
 
-### `Clon or Download Repository`
+### `Clone or Download Repository`
 
 ### `npm install`
 
@@ -66,5 +66,5 @@ Now it's ready for MongoDB and Editing Page. Try API and Check if it stores data
 
 You can test MongoDB with BackEnd Web application.\
 
-`Clon or Download Backend App : `\
+`Clone or Download Backend App : `\
 [https://github.com/proust01/wine-search-app](https://github.com/proust01/wine-search-app)
