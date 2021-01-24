@@ -26,6 +26,9 @@ All current wine data is already fetched in input box so you can only change the
 ### `Auto-Complete Search Box`
 For task requirement, I completed auto-complete search. It starts when you try to input any word in input box and close once you click outside. It design to search both lotCode and Description together.
 
+### `Show More Button`
+For task requirement, I implemented Show more Button for long messages. If wine has More than 3 components to show, it creates show more button and it'll show 2 more contents evenry time you click.
+ 
 # Getting Started with Wine Search App (Frontend)
 
 ### `Clone or Download Repository`
