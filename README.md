@@ -56,14 +56,13 @@ Server is currently fetching a data from data.js so in order to use MongoDB, we 
 
 ### `Seed Data to MongoDB`
 
-Before Editing page, You must be installed with MongoDB. [MongoDB Community Edition Download]\
-Once installed, you can seed the data with this api.\
+Once installed MongoDB and run nodemon server.js, you can seed the data with this api.\
 [http://localhost:5000/products/seed](http://localhost:5000/products/seed)\
 This will store data to MongoDB.\
 
-### `Run nodemon server.js`
+### `Check with Editing Page`
 
-Now it's ready for MongoDB and Editing Page. Try API and Check if it stores data properly.
+Now it's ready for MongoDB and Editing Page. Go to Editing page and hit Save Button.
 
 ## Learn More
 
