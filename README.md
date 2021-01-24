@@ -14,7 +14,7 @@ This app is React / Node.js wine search application.
 ## FrontEnd App
 
 ### `Redux State Management`
-For first task, it started with using React.js and Redux library for State Management. <br>
+For the first task, it started with using React.js and Redux library for State Management. <br>
 Basically, It used a Actions / Reducers / Screens / Components design pattern. For Redux, it has a store.js for storing all states.<br>
 
 ### `Edit Page with MongoDB`
