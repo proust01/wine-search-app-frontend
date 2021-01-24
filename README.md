@@ -43,7 +43,7 @@ It'll open Auto-Complete Serch Box.
 
 ### `CAUTION FOR EDTING PAGE : YOU MUST INSTALL MONGODB AND SEED DATA TO MONGODB FIRST!`
 
-[MongoDB Community Edition Download]()\
+[MongoDB Community Edition Download]()
 
 ### `Comment out Codes & Back from VS Code for MongoDB`
 
