@@ -1,4 +1,4 @@
-# wine-search-app
+# wine-search-app (FrontEnd)
 
 This app is React / Node.js wine search application.
 
@@ -26,7 +26,7 @@ All current wine data is already fetched in input box so you can only change the
 ### `Auto-Complete Search Box`\
 For task requirement, I completed auto-complete search. It starts when you try to input any word in input box and close once you click outside. It design to search both lotCode and Description together.
 
-# Getting Started with Wine Search App (Backend)
+# Getting Started with Wine Search App (Frontend)
 
 ### `Clon or Download Repository`
 
