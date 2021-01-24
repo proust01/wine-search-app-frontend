@@ -8,7 +8,7 @@ This app is React / Node.js wine search application.
 
 -- Stack Used : 
 
-      Frontend : React, Redux
+      Frontend : React, Redux (Actions, Reducers, Store)
       Backend : Node.js, Express, MongoDB, MVC design pattern
       
 ## FrontEnd App
